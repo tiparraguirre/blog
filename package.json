@@ -2,8 +2,12 @@
   "name": "blog",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "v13.11.0",
+    "npm": "6.13.7" 
+  },
   "scripts": {
-    "start": "./node_modules/.bin/nodemon ./bin/www",
+    "start": "node ./bin/www",
     "tomy": "echo soy una rata"
   },
   "dependencies": {
