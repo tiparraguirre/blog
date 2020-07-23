@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "node ./bin/www",
-    "tomy": "echo soy una rata"
+    "tomy": "echo soy una rata",
+    "dev": "./node_modules/.bin/nodemon .bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
